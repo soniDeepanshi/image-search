@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-it</title>
+    <link rel="icon" type="image/x-icon" href="https://insanereverie.in/wp-content/uploads/2016/04/i.jpg?w=144">
+
+    <!-- Bootstrap -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.4.0/mdb.min.css" rel="stylesheet" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-content">
+            <h1 class="logo">Image-It</h1>
+            <p class="sub-line">the best free images you can find</p>
+
+            <form action="search.html">
+                <input type="text" autocomplete="off" name="search" class="search-box" placeholder="search image">
+                <button class="search-btn" type="submit">search
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <!-- pop-up window -->
+    <div class="image-popup hide">
+        <button class="close-btn"><i class="fa-solid fa-xmark" style="color: white;"></i>
+        </button>
+        <a href="#" class="download-btn">download image</a>
+        <img src="images/one.jpg" class="large-img" alt="">
+        <button class="controls pre-btn"><i class="fa-solid fa-caret-left btn-size"></i></button>
+        <button class="controls nxt-btn"><i class="fa-solid fa-caret-right btn-size"></i></button>
+    </div>
+
+    <!-- gallery -->
+    <section class="gallery">
+        <!-- <img src="" class="gallery-img" alt=""> -->
+        <!-- <img src="" class="gallery-img" alt=""> -->
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center text-white" style="background-color: #1a1818;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1"
+                    href="https://www.linkedin.com/in/deepanshi-soni-151978192/" role="button" target="_blank"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-light m-1" href="https://github.com/soniDeepanshi"
+                    role="button" target="_blank" data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Made by:
+            <a href="https://github.com/soniDeepanshi" target="_blank">Deepanshi</a>
+        </div>
+    </footer>
+    <!-- footer -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
