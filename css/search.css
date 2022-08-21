@@ -1,0 +1,43 @@
+/* ===== Scrollbar CSS ===== */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #a9a0ab;
+  border-radius: 7px;
+  border: 3px groove #ffffff;
+}
+
+.search-container {
+  width: 100%;
+  height: 60px;
+  background: black;
+  padding: 10px 40px;
+  position: fixed;
+}
+
+.search-input {
+  width: 25%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 20px;
+  text-transform: capitalize;
+}
+
+.search {
+  background: none;
+  border: none;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin-left: 2rem;
+}
