@@ -2,9 +2,9 @@ let searchParam = location.search.split('=').pop();
 
 const access_key = '9juWMh83lYne9VDTTVynmErkGhaBgT4lwqFhLLWvU-s';
 
-const random_photo_url = `https://api.unsplash.com/photos/random?client_id=${access_key}&count=30`;
+const random_photo_url = `https://api.unsplash.com/photos/random?client_id=${access_key}&count=28`;
 
-const search_photo_url = `https://api.unsplash.com/search/photos?client_id=${access_key}&query=${searchParam}&per_page=50`;
+const search_photo_url = `https://api.unsplash.com/search/photos?client_id=${access_key}&query=${searchParam}&per_page=28`;
 
 const gallery = document.querySelector('.gallery');
 
