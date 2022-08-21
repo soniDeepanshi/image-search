@@ -12,4 +12,4 @@ some Screenshots of application:
 
 ![image](https://user-images.githubusercontent.com/106514031/185805090-dbb4825d-ad2a-4a8b-9a10-ab6db335b7f7.png)
 
-![image](https://user-images.githubusercontent.com/106514031/185805114-b0f1b0a7-b856-427a-98e3-d40f95da75a6.png)
+![image](https://user-images.githubusercontent.com/106514031/185806765-528efafd-957f-445c-b3b1-81a9753a846a.png)
